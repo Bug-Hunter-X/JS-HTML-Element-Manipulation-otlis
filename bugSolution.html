@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    // Correct way to access the element and set its innerHTML
+    document.getElementById('myDiv').innerHTML = "<p>This text replaces the previous text.</p>";
+  </script>
+</body>
+</html>
